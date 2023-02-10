@@ -1,0 +1,324 @@
+#header {
+  .navmenu {
+    ul {
+      li {
+        .cosmeticsa {
+          text-decoration: none;
+          font-size: 14px;
+          font-family: Arial, Helvetica, sans-serif;
+          padding: 0px 15px;
+          color: black;
+          position: relative;
+          transition: 0.2s ease-in-out;
+          font-weight: bold;
+          &:hover {
+            color: #c9a890;
+            i {
+              transform: rotate(90deg);
+            }
+            &::before {
+              width: 65%;
+            }
+          }
+          &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 8%;
+            width: 0%;
+            height: 1px;
+            background-color: #c9a890;
+            transition: 0.3s ease-in-out;
+          }
+          i {
+            padding: 0px 3px;
+            color: #c9a890;
+            transition: 0.1s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+  .iconscos {
+    cursor: pointer;
+    .fa-bars {
+      display: none;
+    }
+    padding-top: 5px;
+    width: 15%;
+    p {
+      margin-top: -1px;
+      margin-left: -10px;
+      margin-right: 5px;
+      color: black;
+    }
+    i {
+      padding: 0px 20px;
+      font-size: 20px;
+      color: black;
+      transition: 0.2s ease-in-out;
+      &:hover {
+        color: #c9a890;
+      }
+    }
+  }
+}
+// header end
+#slidercos{
+  position: relative;
+  img{
+    height: 90vh;
+    filter: brightness(60%);
+  }
+  width: 90%;
+  margin: auto;
+  .text{
+    position: absolute;
+    top:30%;
+    left: 50%;
+  span{
+    color: #c9a890;
+    font-family: "Mrs Saint Delafield", cursive;
+    font-size: 40px;
+  }
+  h1{
+    font-family: prata;
+    color: white;
+    font-size: 60px;
+  }
+  p{
+    margin: 20px 0px;
+    color:white;
+  }
+  a {
+    display: inline-block;
+    margin-top: 50px;
+    background-color: #c9a890;
+    padding: 20px 35px;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    position: relative;
+    z-index: 0;
+    &:hover {
+      &::before {
+        transform: scale(1);
+      }
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+      height: 62px;
+      background-color: white;
+      z-index: -2;
+      transition: 0.3s ease-in-out;
+      transform: scale(0);
+    }
+  }
+}
+}
+// slidercos end 
+#mascara{
+  background-color: white;
+  text-align: center;
+  padding: 100px 0px;
+  .text{
+    text-align: center;
+    span{
+      color: #c9a890;
+      font-family: "Mrs Saint Delafield", cursive;
+      font-size: 50px;
+    }
+    h1{
+      font-family: prata;
+      padding: 10px 0px;
+    }
+  }
+  .box{
+    position: relative;
+    img{
+      transition: 0.3s ease-in-out;
+    }
+    &:hover {
+      img {
+        filter: brightness(70%);
+      }
+      button {
+        visibility: visible;
+      }
+      a {
+        visibility: visible;
+        transform: translateY(-380%);
+      }
+    }
+h6{
+  font-weight: bold;
+}
+p{
+  color: #c9a890;
+  font-weight: bold;
+}
+button {
+  border: 0px solid white;
+  padding: 15px 55px;
+  font-weight: bold;
+  font-size: 12px;
+  transition: 0.3s ease-in-out;
+  transform: translateY(-450%);
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    background-color: #c9a890;
+  }
+  i {
+    padding: 0px 10px;
+  }
+}
+a {
+  display: inline-block;
+  background-color: #1c1c1c;
+  text-decoration: none;
+  color: white;
+  padding: 15px 40px;
+  position: relative;
+  transform: translateY(-300%); 
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+  visibility: hidden;
+  &:hover {
+    &::before {
+      transform: scale(1);
+    }
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 54px;
+    background-color: #c9a890;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+    transform: scale(0);
+  }
+  i {
+    padding: 0px 10px;
+  }
+}
+  }
+  .fm {
+    display: inline-block;
+    margin-top: 50px;
+    background-color: #c9a890;
+    padding: 20px 35px;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    position: relative;
+    z-index: 0;
+    &:hover {
+      color: white;
+      &::before {
+        transform: scale(1);
+      }
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+      height: 63px;
+      background-color: black;
+      z-index: -2;
+      transition: 0.3s ease-in-out;
+      transform: scale(0);
+    }
+  }
+}
+// mascara end 
+#black{
+  background-color:#141414;
+  padding: 50px 0px;
+  text-align: center;
+  .line{
+    padding: 30px 0px;
+    width: 1px;
+    background-color: #c9a890;
+    margin: auto;
+  }
+  p{
+    font-family: prata;
+    font-size: 20px;
+    color: white;
+    padding: 50px 0px;
+  }
+}
+// black end 
+#clients{
+  background-color: white;
+  .text{
+    text-align: center;
+    p{
+      font-family: "Mrs Saint Delafield", cursive;
+      color: #c9a890;
+      font-size: 50px;
+    }
+    h1{
+      font-family: prata;
+    }
+  }
+    .iconbox{
+      border: 1px solid black;
+      width: 70%;
+      padding: 10px 0px;
+      text-align: center;
+      margin:12rem 0;
+      transition: 0.2s ease-in-out;
+      &:hover{
+        background-color: black;
+        color: white;
+      }
+
+    }
+    .box{
+      text-align: center;
+      border: 12px solid #c9a89054; 
+      padding: 100px 0px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      p{
+        padding: 20px 0px;
+      }
+      span{
+        color: #B9B9B9;
+        font-size: 12px;
+        display: inline-block;
+      }
+    }
+}
+// clients end 
+#organic{
+  padding: 100px 0px;
+  background-color: white;
+  .box{
+    text-align: center;
+    i{
+      font-size: 50px;
+    }
+    h6{
+      font-weight: bold;
+      padding: 15px 0px;
+    }
+    p{
+      color: #B9B9B9;
+    }
+  }
+}
+// organic end 

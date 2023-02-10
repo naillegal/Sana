@@ -1,0 +1,879 @@
+@media (max-width: 576px) {
+  #header {
+    margin: -4px 0px;
+    padding: 0;
+  }
+  #header .logo {
+    width: 100px;
+    margin-right: 250px;
+  }
+  #header .navmenu {
+    display: none;
+  }
+  #header .icons .fa-bars {
+    display:block;
+  }
+  #header .icons p {
+    display: none;
+  }
+  #header .icons i {
+    display: none;
+  }
+  #header .iconscos .fa-bars {
+    display: block;
+    font-size: 30px;
+  }
+  #header .iconscos p {
+    display: none;
+  }
+  #header .iconscos i {
+    display: none;
+  }
+  #fashion .box1 {
+    display: none;
+  }
+  #fashion .box3 {
+    display: none;
+  }
+  #fashion #slider .img2 {
+    display: none;
+  }
+  #fashion #slider .img3 {
+    display: none;
+  }
+  #casual #slider .img2{
+    display: none
+  }
+  #casual #slider .img3{
+    display: none;
+  }
+  #winter .boxrel {
+    display: none;
+  }
+  #video .box img{
+    width: 100%;
+    height: 30vh;
+  }
+  #video .box .boxw {
+    display: none;
+  }
+  #video .box .boxicon{
+    display: none;
+  }
+  #store{
+    display: none;
+  }
+  #store .text h1 {
+    display: none;
+  }
+  #store .text p {
+    display: none;
+  }
+  #store .box:hover img {
+    filter: brightness(100%);
+  }
+  #store .box a {
+    display: none;
+  }
+  #store .box button {
+    display: none;
+  }
+  #store img {
+    max-width: 500%;
+    aspect-ratio: 0.75;
+    margin-left: -120px;
+  }
+  #store .more .read {
+    display: none;
+  }
+  #services a:hover::before {
+    display: none;
+  }
+  #services .imgbox {
+    display: none;
+  }
+  #blog .box {
+    padding: 50px 0px;
+    position: relative;
+  }
+  #blog .box .boxw {
+    display: none;
+  }
+  #blog .box .text {
+    position: absolute;
+    top: -30%;
+    margin-top: 400px;
+  }
+  #blog .box .button {
+    position: absolute;
+    top: 30%;
+  }
+  #slidercos {
+    position: relative;
+  }
+  #slidercos .text {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 2%;
+  }
+  #clients .iconbox {
+    display: none;
+  }
+  #events {
+    .p1 {
+      display: none;
+    }
+    .text {
+      text-align: center;
+    }
+  }
+  #lies {
+    .wedding {
+      .boxw {
+        display: none;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+  #wide {
+    a {
+      margin: 20px 120px;
+    }
+  }
+  #onepage {
+    .box{
+      position: relative;
+      .text{
+        position: absolute;
+        left:20%
+      }
+      .boxw{
+        padding: 165px 0px;
+      }
+    }
+}
+#casual{
+  .boxicon{
+    display: none;
+  }
+}
+#organiccosmetics1{
+  display: none;
+}
+#organiccosmetics3{
+  .rightsbox{
+    .sbox{
+      &::before{
+        display: none;
+      }
+    }
+  }
+}
+#organiccosmetics2{
+  .org-cos-box2{
+    .productstext{
+      h2{
+        display: none;
+      }
+      p{
+        display: none;
+      }
+      .producticon{
+        display: none;
+      }
+    }
+  }
+}
+#organiccosmetics6{
+  height: 175rem;
+}
+// #footer-start{
+//   .forms{
+//     button{
+//       display: none;
+//     }
+//     input{
+//       display: none;
+//     }
+//     span{
+//       display: none;
+//     }
+//   }
+// }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  #header .logo {
+    width: 150px;
+    margin-right: 250px;
+  }
+  #header .navmenu {
+    display: none;
+  }
+  #header .icons .fa-bars {
+    display: block;
+    font-size: 40px;
+    margin-top: -10px;
+  }
+  #header .icons p {
+    display: none;
+  }
+  #header .icons i {
+    display: none;
+  }
+  #header .iconscos .fa-bars {
+    display: block;
+    font-size: 30px;
+  }
+  #header .iconscos p {
+    display: none;
+  }
+  #header .iconscos i {
+    display: none;
+  }
+  #fashion .box1 {
+    display: none;
+  }
+  #fashion .box3 {
+    display: none;
+  }
+  #fashion #slider {
+    overflow: hidden;
+  }
+  #fashion #slider .img2 {
+    display: none;
+  }
+  #fashion #slider .img3 {
+    display: none;
+  }
+  #casual #slider .img2{
+    display: none
+  }
+  #casual #slider .img3{
+    display: none
+  }
+  #fashion #slider figure {
+    width: 500%;
+    margin: 0;
+    left: 0;
+    position: relative;
+    animation: 10s slider infinite 3s;
+  }
+  @keyframes slider {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: -50%;
+    }
+    75% {
+      left: -100%;
+    }
+    100% {
+      left: 0%;
+    }
+  }
+  #winter .boxrel {
+    display: none;
+  }
+  #video .box .boxw {
+    padding: 230px 0px;
+  }
+  #store .text h1 {
+    display: none;
+  }
+  #store .text p {
+    display: none;
+  }
+  #store .box:hover img {
+    filter: brightness(100%);
+  }
+  #store .box a {
+    display: none;
+  }
+  #store .box button {
+    display: none;
+  }
+  #store .box img {
+    max-width: 500%;
+    aspect-ratio: 0.75;
+    margin-left: -50px;
+  }
+  #store .more .read {
+    display: none;
+  }
+  #services a:hover::before {
+    display: none;
+  }
+  #services .imgbox {
+    display: none;
+  }
+  #blog .box {
+    padding: 130px 0px;
+    position: relative;
+  }
+  #blog .box .boxw {
+    display: none;
+  }
+  #blog .box .text {
+    position: absolute;
+    top: -30%;
+  }
+  #blog .box .button {
+    position: absolute;
+    top: 30%;
+  }
+  #slidercos {
+    position: relative;
+  }
+  #slidercos .text {
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+  }
+  #clients .iconbox {
+    display: none;
+  }
+  #events {
+    .p1 {
+      display: none;
+    }
+    .text {
+      text-align: center;
+    }
+  }
+  #lies {
+    .wedding {
+      .boxw {
+        display: none;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+  #wide {
+    a {
+      margin: 20px 120px;
+    }
+  }
+  #onepage {
+    .box{
+      position: relative;
+      .text{
+        position: absolute;
+        left:30%
+      }
+      .boxw{
+        padding: 165px 0px;
+      }
+    }
+}
+#casual{
+  .boxicon{
+    display: none;
+  }
+}
+#organiccosmetics1{
+  display: none;
+}
+#organiccosmetics3{
+  .rightsbox{
+    .sbox{
+      &::before{
+        display: none;
+      }
+    }
+  }
+}
+#organiccosmetics2{
+  .org-cos-box2{
+    .productstext{
+      h2{
+        display: none;
+      }
+      p{
+        display: none;
+      }
+      .producticon{
+        display: none;
+      }
+    }
+  }
+}
+#organiccosmetics6{
+  height: 175rem;
+}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  #header .logo {
+    width: 100px;
+    margin-right: 600px;
+  }
+  #header .navmenu {
+    display: none;
+  }
+  #header .icons .fa-bars {
+    display: block;
+    font-size: 30px;
+  }
+  #header .icons p {
+    display: none;
+  }
+  #header .icons i {
+    display: none;
+  }
+  #header .iconscos .fa-bars {
+    display: block;
+    font-size: 30px;
+  }
+  #header .iconscos p {
+    display: none;
+  }
+  #header .iconscos i {
+    display: none;
+  }
+  #fashion .img2 {
+    display: none;
+  }
+  #fashion .img3 {
+    display: none;
+  }
+  #casual #slider .img2{
+    display: none
+  }
+  #casual #slider .img3{
+    display: none
+  }
+  #fashion figure {
+    width: 500%;
+    margin: 0;
+    left: 0;
+    position: relative;
+    animation: 10s slider infinite 3s;
+  }
+  @keyframes slider {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: -50%;
+    }
+    75% {
+      left: -100%;
+    }
+    100% {
+      left: 0%;
+    }
+  }
+  #fashion .box1 {
+    display: none;
+  }
+  #fashion .box3 {
+    display: none;
+  }
+  #winter .boxrel {
+    display: none;
+  }
+  #video .box .boxw {
+    padding: 230px 0px;
+  }
+  #store .text h1 {
+    display: none;
+  }
+  #store .text p {
+    display: none;
+  }
+  #store .box:hover img {
+    filter: brightness(100%);
+  }
+  #store .box:hover a {
+    display: none;
+  }
+  #store .box:hover button {
+    display: none;
+  }
+  #store .box img {
+    max-width: 100%;
+    aspect-ratio: 0.75;
+  }
+  #services a:hover::before {
+    display: none;
+  }
+  #services .imgbox {
+    display: none;
+  }
+  #blog .box {
+    padding: 130px 0px;
+    position: relative;
+  }
+  #blog .box .boxw {
+    display: none;
+  }
+  #blog .box .text {
+    position: absolute;
+    top: -30%;
+  }
+  #blog .box .button {
+    position: absolute;
+    top: 30%;
+  }
+  #slidercos {
+    position: relative;
+  }
+  #slidercos .text {
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 8%;
+  }
+  #events {
+    .p1 {
+      display: none;
+    }
+    .text {
+      display: none;
+    }
+  }
+  #lies {
+    .wedding {
+      .boxw {
+        display: none;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+  #wide {
+    a {
+      margin: 20px 230px;
+    }
+  }
+  #onepage {
+    .box{
+      position: relative;
+      .text{
+        position: absolute;
+        left:35%
+      }
+      .boxw{
+        padding: 165px 0px;
+      }
+    }
+}
+#casual{
+  .boxicon{
+    display: none;
+  }
+}
+#organiccosmetics1{
+  display: none;
+}
+#organiccosmetics3{
+  .rightsbox{
+    .sbox{
+      &::before{
+        display: none;
+      }
+    }
+  }
+}
+#organiccosmetics2{
+  .org-cos-box2{
+    .productstext{
+      h2{
+        display: none;
+      }
+      p{
+        display: none;
+      }
+      .producticon{
+        display: none;
+      }
+    }
+  }
+}
+#organiccosmetics6{
+  height: 175rem;
+}
+}
+@media (min-width: 992px) and (max-width: 1365px) {
+  #header .logo {
+    width: 100px;
+    margin-right: 700px;
+  }
+  #header .navmenu {
+    display: none;
+  }
+  #header .icons .fa-bars {
+    display: block;
+    font-size: 30px;
+  }
+  #header .icons p {
+    display: none;
+  }
+  #header .icons i {
+    display: none;
+  }
+  #header .iconscos .fa-bars {
+    display: block;
+    font-size: 30px;
+  }
+  #header .iconscos p {
+    display: none;
+  }
+  #header .iconscos i {
+    display: none;
+  }
+  #winter .boxrel {
+    display: none;
+  }
+  #video .box .boxw {
+    padding: 230px 0px;
+  }
+  #fashion .img2 {
+    display: none;
+  }
+  #fashion .img3 {
+    display: none;
+  }
+  #fashion figure {
+    width: 500%;
+    margin: 0;
+    left: 0;
+    position: relative;
+    animation: 10s slider infinite 3s;
+  }
+  @keyframes slider {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: -25%;
+    }
+    75% {
+      left: -50%;
+    }
+    100% {
+      left: 0%;
+    }
+  }
+  #fashion .box1 {
+    display: none;
+  }
+  #fashion .box3 {
+    display: none;
+  }
+  .i {
+    object-position: center;
+    object-fit: cover;
+  }
+  #store .text h1 {
+    display: none;
+  }
+  #store .text p {
+    display: none;
+  }
+  #services a:hover::before {
+    display: none;
+  }
+  #services .imgbox {
+    display: none;
+  }
+  #slidercos {
+    position: relative;
+  }
+  #slidercos .text {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+  #events {
+    .p1 {
+      display: none;
+    }
+    .text {
+      text-align: center;
+    }
+  }
+  #organiccosmetics1{
+    display: none;
+  }
+  #organiccosmetics3{
+    .rightsbox{
+      .sbox{
+        &::before{
+          display: none;
+        }
+      }
+    }
+  }
+  #organiccosmetics2{
+    .org-cos-box2{
+      .productstext{
+        h2{
+          display: none;
+        }
+        p{
+          display: none;
+        }
+        .producticon{
+          display: none;
+        }
+      }
+    }
+  }
+  #organiccosmetics6{
+    height: 175rem;
+  }
+}
+@media (min-width: 1367px) and (max-width: 1920px) {
+  #header .navmenu {
+    padding-right: 8rem;
+  }
+  #fashion .box3 p {
+    color: white;
+    padding: 10px 80px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s ease-in-out;
+  }
+  #fashion .box3 p:hover {
+    color: #c9a890;
+  }
+  #fashion .box3 p:hover::before {
+    width: 12%;
+  }
+  #fashion .box3 p::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    width: 0%;
+    height: 1px;
+    background-color: #c9a890;
+    transition: 0.3s ease-in-out;
+  }
+  #fashion .box3 .p2 {
+    color: #c9a890;
+  }
+  #fashion .box3 .p2::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    width: 12%;
+    height: 1px;
+    background-color: #c9a890;
+  }
+  #winter .boxw {
+   padding: 165px 0px;
+  }
+  #slider {
+    overflow: hidden;
+  }
+  #slider figure {
+    width: 500%;
+    margin: 0;
+    left: 0;
+    position: relative;
+    animation: 10s slider infinite 3s;
+  }
+  @keyframes slider {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: -100%;
+    }
+    75% {
+      left: -200%;
+    }
+    100% {
+      left: 0%;
+    }
+  }
+  #video .box .boxw {
+    padding: 440px 0px;
+  }
+  #services .imgbox .firstimg {
+    position: relative;
+  }
+  #services .imgbox .firstimg img {
+    height: 65vh;
+  }
+  #services .imgbox .secondimg {
+    position: absolute;
+    left: 66%;
+    top: 320rem;
+  }
+  #brands img {
+    width: 100%;
+  }
+  #events {
+    .text {
+      padding: 200px 0px;
+      h1 {
+        font-size: 60px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+    .boximg {
+      .boxw {
+        padding: 460px 0px;
+      }
+    }
+  }
+  #wide {
+    .box {
+      position: relative;
+      .blackbox {
+        position: absolute;
+        top: 71%;
+      }
+    }
+  }
+  #onepage {
+    .box{
+      position: relative;
+      img{
+        height: 80vh;
+      }
+      .boxw{
+        padding: 415px 0px;
+      }
+      .text{
+        position: absolute;
+        top:70%;
+        left:20%
+      }
+    }
+}
+#casual{
+  .text{
+    margin:200px 30px;
+  }
+    .boxicon{
+        i{
+            margin: 30px;
+        }
+      }
+  #slider{
+    margin-top: -993px;
+  }
+}
+#organiccosmetics1{
+  a{
+    margin:20px 850px
+  }
+}
+}
+

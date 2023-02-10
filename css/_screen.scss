@@ -1,0 +1,76 @@
+#casual {
+  .boxicon {
+    position: absolute;
+    left: 90%;
+    top: 28%;
+    transform: rotate(360deg);
+    i {
+      border: 1px solid #c9a890;
+      color: #c9a890;
+      padding: 10px;
+      margin: 20px;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        background-color: white;
+      }
+    }
+  }
+  .boxarrow {
+    .box {
+      background-color: #0f0d0e;
+      margin: 0px 10px;
+      padding: 10px 15px;
+      opacity: 0.6;
+      &:hover {
+        opacity: 1;
+      }
+      i {
+        color: white;
+      }
+    }
+  }
+  a {
+    overflow: hidden;
+    display: block;
+    margin-left: 80px;
+    color: white;
+    font-family: prata;
+    padding: 15px 0px;
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+    &:hover {
+      color: #c9a890;
+    }
+  }
+  #slider {
+    position: relative;
+    margin-top: -600px;
+    overflow: hidden;
+    z-index: -999;
+    figure {
+      z-index: -1;
+      img {
+        filter: brightness(60%);
+      }
+      width: 500%;
+      margin: 0;
+      left: 0;
+      position: relative;
+      animation: 10s slider infinite 3s;
+    }
+    @keyframes slider {
+      0% {
+        left: 0%;
+      }
+      50% {
+        left: -170%;
+      }
+      75% {
+        left: -300%;
+      }
+      100% {
+        left: 0%;
+      }
+    }
+  }
+}

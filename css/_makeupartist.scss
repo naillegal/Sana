@@ -1,0 +1,235 @@
+#events {
+  padding: 100px 0px;
+  background-color: #f9f1ec;
+  .boximg {
+    position: relative;
+    &:hover {
+      .boxw {
+        visibility: visible;
+      }
+    }
+    .boxw {
+      position: absolute;
+      top: 2%;
+      border: 1px solid white;
+      width: 94%;
+      padding: 320px 0px;
+      left: 3%;
+      visibility: hidden;
+      transition: 0.2s ease-in-out;
+    }
+  }
+  .p1 {
+    margin-top: 200px;
+    width: 300%;
+    transform: rotate(270deg);
+    color: #b8b8b8;
+    position: relative;
+    right: 100%;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: -35%;
+      width: 30%;
+      height: 1px;
+      background-color: #c9a890;
+    }
+  }
+  .text {
+    padding: 50px 0px;
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #c9a890;
+      padding: 20px 35px;
+      text-decoration: none;
+      color: black;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 15px;
+      position: relative;
+      z-index: 1;
+      &:hover {
+        &::before {
+          transform: scale(1);
+        }
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 63px;
+        background-color: white;
+        z-index: -1;
+        transition: 0.3s ease-in-out;
+        transform: scale(0);
+      }
+    }
+    h1 {
+      font-family: prata;
+    }
+  }
+}
+#lies {
+  background-color: #141414;
+  .text {
+    padding: 100px 0px;
+    h1 {
+      font-family: prata;
+      color: #c9a890;
+      font-size: 50px;
+    }
+    p {
+      font-family: prata;
+      color: white;
+      font-size: 17px;
+      margin: 20px 0px;
+    }
+    a {
+      display: inline-block;
+      margin-top: 50px;
+      margin-left: 100px;
+      background-color: #c9a890;
+      padding: 20px 35px;
+      text-decoration: none;
+      color: black;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 15px;
+      position: relative;
+      z-index: 1;
+      &:hover {
+        &::before {
+          transform: scale(1);
+        }
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 63px;
+        background-color: white;
+        z-index: -1;
+        transition: 0.3s ease-in-out;
+        transform: scale(0);
+      }
+    }
+  }
+  .wedding {
+    width: 90%;
+    margin: auto;
+    background-color: #f9f1ec;
+    .box {
+      padding: 50px 0px;
+      position: relative;
+      &:hover {
+        .boxw {
+          visibility: visible;
+        }
+      }
+      .boxw {
+        position: absolute;
+        top: 12%;
+        border: 1px solid white;
+        width: 90%;
+        padding: 155px 0px;
+        left: 5%;
+        visibility: hidden;
+        transition: 0.2s ease-in-out;
+      }
+      .words {
+        background-color: #141414;
+        p {
+          text-align: center;
+          color: white;
+          font-family: prata;
+          padding: 18px 0px;
+        }
+      }
+    }
+  }
+}
+#wide {
+  padding: 100px 0px;
+  span {
+    font-family: "Mrs Saint Delafield", cursive;
+    color: #c9a890;
+    font-size: 50px;
+  }
+  h1{
+    font-family: prata;
+  }
+  .ibox{
+    padding: 20px 0px;
+    width: 30%;
+    text-align: center;
+    i{
+      font-size: 60px;
+      color: #c9a890;
+    }
+    h6{
+      padding: 20px 0px;
+      font-weight: bold;
+    }
+  }
+  a {
+    display: inline-block;
+    background-color: #c9a890;
+    padding: 20px 35px;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    position: relative;
+    z-index: 1;
+    &:hover {
+      &::before {
+        transform: scale(1);
+      }
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+      height: 63px;
+      background-color: white;
+      z-index: -1;
+      transition: 0.3s ease-in-out;
+      transform: scale(0);
+    }
+  }
+  .box{
+    position: relative;
+    .blackbox{
+      top:66.5%;
+      padding:20px;
+      position: absolute;
+      background-color: #141414;
+      // padding: 50px ;
+      .boxi{
+        &:hover{
+          background-color: black;
+        }
+        border-radius: 50%;
+        border: 5px solid white;
+        color: white;
+        background-color: #c9a890;
+        transition: 0.2s ease-in-out  ;
+        i{
+          padding:30px;
+        }
+      }
+      p{
+      color: white;
+      font-weight: bold;
+      font-size: 14px;
+      margin: 20px;
+      }
+    }
+  }
+}

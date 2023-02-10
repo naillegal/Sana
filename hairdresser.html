@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sana - Fashion Stylist, Beauty Salon</title>
+    <link rel="stylesheet" href="vendors/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            #barber {
+	 background-color: #f9f1ec;
+}
+ #barber .box1 {
+	 padding: 200px 50px;
+}
+ #barber .box1 h2 {
+	 font-family: "Mrs Saint Delafield", cursive;
+	 color: #c9a890;
+}
+ #barber .box1 h1 {
+	 font-family: prata;
+}
+ #barber .box1 .icons {
+	 padding: 50px 0px;
+}
+ #barber .box1 .icons .box {
+	 padding: 15px 30px;
+	 background-color: white;
+	 transition: 0.2s ease-in-out;
+}
+ #barber .box1 .icons .box:hover {
+	 background-color: black;
+	 color: white;
+}
+ #barber .box1 .icons .box i {
+	 font-size: 30px;
+}
+ #white {
+	 padding: 50px 0px;
+	 text-align: center;
+}
+ #white .line {
+	 padding: 30px 0px;
+	 width: 1px;
+	 background-color: #c9a890;
+	 margin: auto;
+}
+ #white p {
+	 font-family: prata;
+	 font-size: 20px;
+	 color: black;
+	 padding: 50px 0px;
+}
+ #perfect {
+	 background-color: #f9f1ec;
+}
+ #perfect .box {
+	 position: relative;
+}
+ #perfect .box .img2 {
+	 float: right;
+	 margin: 200px 0px;
+}
+ #perfect .box .look {
+	 margin-top: 70px;
+	 position: absolute;
+	 left: -30%;
+	 background-color: white;
+	 padding: 100px;
+	 z-index: 1;
+}
+ #perfect .box .look span {
+	 font-family: "Mrs Saint Delafield", cursive;
+	 font-size: 60px;
+	 color: #c9a890;
+}
+ #perfect .box .look h1 {
+	 font-family: prata;
+}
+ #perfect .box .look a {
+	 display: inline-block;
+	 margin-top: 20px;
+	 background-color: #c9a890;
+	 padding: 20px 35px;
+	 text-decoration: none;
+	 color: black;
+	 font-family: Verdana, Geneva, Tahoma, sans-serif;
+	 font-size: 15px;
+	 position: relative;
+	 z-index: 1;
+}
+ #perfect .box .look a:hover::before {
+	 transform: scale(1);
+}
+ #perfect .box .look a::before {
+	 content: "";
+	 position: absolute;
+	 top: 0%;
+	 left: 0%;
+	 width: 100%;
+	 height: 63px;
+	 background-color: white;
+	 z-index: -1;
+	 transition: 0.3s ease-in-out;
+	 transform: scale(0);
+}
+ #well {
+	 background-color: #f9f1ec;
+}
+ #well .box {
+	 position: relative;
+}
+ #well .box .img1 {
+	 float: left;
+	 margin: 200px 0px;
+}
+ #well .look {
+	 margin-top: 70px;
+	 position: absolute;
+	 left: 20%;
+	 background-color: white;
+	 z-index: 1;
+	 width: 100%;
+	 padding: 100px 0px;
+	 text-align: center;
+}
+ #well .look span {
+	 font-family: "Mrs Saint Delafield", cursive;
+	 font-size: 60px;
+	 color: #c9a890;
+}
+ #well .look h1 {
+	 font-family: prata;
+}
+ #well .look a {
+	 display: inline-block;
+	 margin-top: 20px;
+	 background-color: #c9a890;
+	 padding: 20px 35px;
+	 text-decoration: none;
+	 color: black;
+	 font-family: Verdana, Geneva, Tahoma, sans-serif;
+	 font-size: 15px;
+	 position: relative;
+	 z-index: 1;
+}
+ #well .look a:hover::before {
+	 transform: scale(1);
+}
+ #well .look a::before {
+	 content: "";
+	 position: absolute;
+	 top: 0%;
+	 left: 0%;
+	 width: 100%;
+	 height: 63px;
+	 background-color: white;
+	 z-index: -1;
+	 transition: 0.3s ease-in-out;
+	 transform: scale(0);
+}
+ #price {
+	 background-color: #f9f1ec;
+}
+ #price .text {
+	 text-align: center;
+}
+ #price .text span {
+	 font-family: "Mrs Saint Delafield", cursive;
+	 font-size: 60px;
+	 color: #c9a890;
+}
+ #price .text h1 {
+	 font-family: prata;
+}
+ #price .text p {
+	 margin: 20px;
+}
+ #price .box {
+	 background-color: white;
+	 padding: 60px 0px;
+	 text-align: center;
+	 transition: 0.3s ease-in-out;
+}
+ #price .box:hover {
+	 transform: translateY(-15px);
+}
+ #price .box h5 {
+	 font-family: prata;
+	 color: #c9a890;
+}
+ #price .box h1 {
+	 font-family: prata;
+	 padding: 20px 0px;
+}
+ #price .box p {
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-size: 15px;
+	 color: #aaa;
+}
+ #price .box a {
+	 display: inline-block;
+	 margin-top: 20px;
+	 background-color: #c9a890;
+	 padding: 20px 35px;
+	 text-decoration: none;
+	 color: black;
+	 font-family: Verdana, Geneva, Tahoma, sans-serif;
+	 font-size: 15px;
+	 position: relative;
+	 z-index: 1;
+}
+ #price .box a:hover::before {
+	 transform: scale(1);
+}
+ #price .box a::before {
+	 content: "";
+	 position: absolute;
+	 top: 0%;
+	 left: 0%;
+	 width: 100%;
+	 height: 63px;
+	 background-color: white;
+	 z-index: -1;
+	 transition: 0.3s ease-in-out;
+	 transform: scale(0);
+}
+ #test {
+	 background-color: #141414;
+}
+ #test .text {
+	 text-align: center;
+}
+ #test .text p {
+	 font-family: "Mrs Saint Delafield", cursive;
+	 color: #c9a890;
+	 font-size: 50px;
+	 padding-top: 100px;
+}
+ #test .text h1 {
+	 font-family: prata;
+	 color: white;
+}
+ #test .iconbox {
+	 border: 1px solid #c9a890;
+	 width: 70%;
+	 padding: 10px 0px;
+	 text-align: center;
+	 margin: 12rem 0;
+	 transition: 0.2s ease-in-out;
+}
+ #test .iconbox i {
+	 color: #c9a890;
+}
+ #test .iconbox:hover {
+	 background-color: white;
+}
+ #test .box {
+	 text-align: center;
+	 border: 12px solid #dfba9f;
+	 padding: 100px 0px;
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-weight: bold;
+}
+ #test .box p {
+	 padding: 20px 0px;
+	 color: white;
+}
+ #test .box span {
+	 color: #b9b9b9;
+	 font-size: 12px;
+	 display: inline-block;
+}
+ #gallery .text {
+	 text-align: center;
+}
+ #gallery .text p {
+	 color: #c9a890;
+	 font-family: "Mrs Saint Delafield", cursive;
+	 font-size: 60px;
+}
+ #gallery .text h1 {
+	 font-family: prata;
+}
+ #gallery .box {
+	 position: relative;
+	 padding: 20px 0px;
+}
+ #gallery .box:hover img {
+	 filter: brightness(60%);
+}
+ #gallery .box:hover .boxw {
+	 visibility: visible;
+	 transition: 0.2s ease-in-out;
+}
+ #gallery .box:hover i {
+	 visibility: visible;
+	 transform: scale(1);
+}
+ #gallery .box img {
+	 transition: 0.2s ease-in-out;
+}
+ #gallery .box i {
+	 color: white;
+	 border-radius: 50%;
+	 background-color: #2a2a2a;
+	 padding: 20px;
+	 position: absolute;
+	 left: 40%;
+	 top: 40%;
+	 transition: 0.3s ease-in-out;
+	 transform: scale(0);
+	 visibility: hidden;
+}
+ #gallery .box .boxw {
+	 position: absolute;
+	 top: 10%;
+	 border: 1px solid white;
+	 width: 90%;
+	 padding: 120px 0px;
+	 left: 5%;
+	 visibility: hidden;
+}
+ #gallery .view {
+	 text-align: center;
+	 padding: 50px 0px;
+}
+ #gallery .view a {
+	 display: inline-block;
+	 margin-top: 20px;
+	 background-color: black;
+	 padding: 20px 35px;
+	 text-decoration: none;
+	 color: white;
+	 font-family: Verdana, Geneva, Tahoma, sans-serif;
+	 font-size: 15px;
+	 position: relative;
+	 z-index: 1;
+}
+ #gallery .view a:hover::before {
+	 transform: scale(1);
+}
+ #gallery .view a::before {
+	 content: "";
+	 position: absolute;
+	 top: 1%;
+	 left: 0%;
+	 width: 100%;
+	 height: 62px;
+	 background-color: #c9a890;
+	 z-index: -1;
+	 transition: 0.3s ease-in-out;
+	 transform: scale(0);
+}
+ @media(max-width:576px){
+    #test .iconbox {
+    display: none;
+  }
+  #perfect .look{
+   display: none;
+  }
+  #well .look{
+    display: none;
+  }
+  #gallery .boxw{
+    display: none;
+  }
+  #gallery .box i{
+    display: none
+  }
+ }
+ @media(min-width:576px) and (max-width:768px){
+    #test .iconbox {
+    display: none;
+  }
+  #perfect .look{
+   display: none;
+  }
+  #well .look{
+    display: none;
+  }
+  #gallery .boxw{
+    display: none;
+  }
+  #gallery .box i{
+    display: none
+  }
+ }
+ @media (min-width: 768px) and (max-width: 992px){
+    #test .iconbox {
+    display: none;
+  }
+  #perfect .look{
+   display: none;
+  }
+  #well .look{
+    display: none;
+  }
+  #gallery .boxw{
+    display: none;
+  }
+  #gallery .box i{
+    display: none
+  }
+ }
+        </style>
+        <!-- css end  -->
+</head>
+
+<body>
+    <header id="header">
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="logo">
+                <img class="img-fluid" src="images/logo-black.png" alt="">
+            </div>
+            <div class="navmenu">
+                <ul class="d-flex justify-content-end list-unstyled">
+                    <li class="home"><a class="cosmeticsa" href="#">HOME<i class="fa-solid fa-angle-right"></i></a>
+                        <ul class="home-dropped list-unstyled">
+                            <li><a class="drop" href="index.html">Fashion Stylist</a></li>
+                            <li><a class="drop" href="makeupartist.html">Makeup Artist</a></li>
+                            <li><a class="drop" href="fashion.html">Fashion Designer</a></li>
+                            <li><a class="drop" href="cosmetic.html">Cosmetics Shop</a></li>
+                            <li><a class="drop" href="organic.html">Organic Cosmetics</a></li>
+                            <li><a class="drop" href="screen.html">Full-Screen Portfolio</a></li>
+                            <li><a class="drop" href="muap.html">Makeup Artist Portfolio</a></li>
+                            <li><a class="drop" href="hairdresser.html">Hairdresser and Hair Salon</a></li>
+                        </ul>
+                    </li>
+                    <li class="about"><a class="cosmeticsa" href="#">ABOUT US<i class="fa-solid fa-angle-right"></i></a>
+                        <ul class="about-dropped list-unstyled">
+                            <li><a class="drop" href="#">About</a></li>
+                            <li><a class="drop" href="#">Services</a></li>
+                            <li><a class="drop" href="#">Testimonials</a></li>
+                            <li><a class="drop" href="#">Team</a></li>
+                            <li><a class="drop" href="#">FAQ</a></li>
+                            <li><a class="drop" href="#">404 Page</a></li>
+                        </ul>
+                    </li>
+                    <li class="products"><a class="cosmeticsa" href="#">PRODUCTS<i
+                                class="fa-solid fa-angle-right"></i></a>
+                        <ul class="products-dropped list-unstyled">
+                            <li><a class="drop" href="#">Shop</a></li>
+                            <li><a class="drop" href="#">Cart</a></li>
+                            <li><a class="drop" href="#">Checkout</a></li>
+                            <li><a class="drop" href="#">My account</a></li>
+                        </ul>
+                    </li>
+                    <li class="blog"><a class="cosmeticsa" href="#">BLOG<i class="fa-solid fa-angle-right"></i></a>
+                        <ul class="blog-dropped list-unstyled">
+                            <li><a href="#" class="drop">Blog with Sidebar</a></li>
+                            <li><a href="#" class="drop">Blog without Sidebar</a></li>
+                        </ul>
+                    </li>
+                    <li class="gallery"><a class="cosmeticsa" href="#">GALLERY<i
+                                class="fa-solid fa-angle-right"></i></a>
+                        <ul class="gallery-dropped list-unstyled">
+                            <li><a href="#" class="drop">Gallery 2-columns</a></li>
+                            <li><a href="#" class="drop">Gallery 3-columns</a></li>
+                            <li><a href="#" class="drop">Gallery 4-colums</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="cosmeticsa" href="#">CONTACTS</a></li>
+                    <li class="pages"><a class="cosmeticsa" href="#">PAGES<i class="fa-solid fa-angle-right"></i></a>
+                        <div class="bigmenu">
+                            <div class="d-flex justify-content-center">
+                                <div class="box">
+                                    <h6>Typography<i class="fa-solid fa-angle-right"></i></h6>
+                                    <ul class="list-unstyled">
+                                        <li><a class="drop" href="#">Headers</a></li>
+                                        <li><a class="drop" href="#">Text</a></li>
+                                        <li><a class="drop" href="#">Text Columns</a></li>
+                                        <li><a class="drop" href="#">Table</a></li>
+                                        <li><a class="drop" href="#">Separators</a></li>
+                                    </ul>
+                                </div>
+                                <div class="box">
+                                    <h6>Form Elements<i class="fa-solid fa-angle-right"></i></h6>
+                                    <ul class="list-unstyled">
+                                        <li><a class="drop" href="#">Buttons</a></li>
+                                        <li><a class="drop" href="#">Forms</a></li>
+                                    </ul>
+                                </div>
+                                <div class="box">
+                                    <h6>Shortcodes<i class="fa-solid fa-angle-right"></i></h6>
+                                    <ul class="list-unstyled">
+                                        <li><a class="drop" href="#">Accordions</a></li>
+                                        <li><a class="drop" href="#">Alerts</a></li>
+                                        <li><a class="drop" href="#">Tabs</a></li>
+                                        <li><a class="drop" href="#">Shortcodes</a></li>
+                                    </ul>
+                                </div>
+                                <div class="box">
+                                    <h6>Lists<i class="fa-solid fa-angle-right"></i></h6>
+                                    <ul class="list-unstyled">
+                                        <li><a class="drop" href="#">Icons</a></li>
+                                        <li><a class="drop" href="#">Lists and Social Icons</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="iconscos d-flex">
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+                <p>0</p>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-bars menu"></i>
+            </div>
+        </div>
+    </header>
+    <!-- header end  -->
+    <section id="barber">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="box1">
+                        <h2>Barbershop</h2>
+                        <h1>Professional<br>Hairdressing stylist</h1>
+                        <p>Integer dignissim, ante ac sagittis condimentum, magna est<br>commodo urna, vel sagittis
+                            lorem est sit amet nibh. Class<br>aptent taciti litora torquent. </p>
+                        <div class="icons d-flex">
+                            <div class="box"><i class="fa-solid fa-angle-left"></i></div>
+                            <div class="box"><i class="fa-solid fa-angle-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="box2">
+                        <img class="img-fluid" src="images/hair_slide_02.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="white">
+        <div class="line"></div>
+        <p>«Professional stylist tell me how beautiful it is to hide or emphasize your image. The beauty lies in the
+            details of trends, the<br>choice of fabrics and colors. We are experienced professionals and guarantee you a
+            unique result. We will provide you with the<br>highest quality of our service.»</p>
+        <img class="img-fluid" src="images/sign (1).png" alt="">
+    </section>
+    <!-- black end  -->
+    <section id="perfect">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/hair_01.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="box">
+                        <img class="img2 img-fluid" src="images/hair-flower-1.png" alt="">
+                        <div class="look">
+                            <span>Hairstyle</span>
+                            <h1>Perfect look</h1>
+                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices<br>posuere cubilia
+                                Curae; Fusce non eros id tortor eleifend<br>volutpat eu et dolor. Quisque ullamcorper
+                                risus dui, in<br>venenatis mi tempor sed.</p>
+                            <a href="#">╾╾╾ READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="well">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="box">
+                        <img class="img1 img-fluid" src="images/hair-flower-4.png" alt="">
+                        <div class="look">
+                            <span>Hairstyle</span>
+                            <h1>Well-groomed hair</h1>
+                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices<br>posuere cubilia
+                                Curae; Fusce non eros id tortor eleifend<br>volutpat eu et dolor. Quisque ullamcorper
+                                risus dui, in<br>venenatis mi tempor sed.</p>
+                            <a href="#">╾╾╾ READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/hair_02.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="price">
+        <div class="text">
+            <span>Price</span>
+            <h1>Choose your makeup</h1>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce non eros id
+                tortor eleifend volutpat eu et<br>dolor. Quisque ullamcorper risus dui, in venenatis mi tempor sed.</p>
+        </div>
+        <div style="padding: 50px 0px;" class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <h5>Daily makeup</h5>
+                        <h1>12$</h1>
+                        <p>Cras pretium lectus eu tempor<br>pretium. Quisque rutrum<br>magna nec euismod
+                            posuere.<br>Nunc laoreet rutrum varius.
+                        </p>
+                        <a href="#">╾╾╾ SIGN UP</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <h5>Wedding makeup</h5>
+                        <h1>39$</h1>
+                        <p>Nullam tristique volutpat mi<br>sed commodo. Aliquam<br>accumsan tincidunt sapien,
+                            non<br>lobortis in.</p>
+                        <a href="#">╾╾╾ SIGN UP</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <h5>Business makeup</h5>
+                        <h1>45$</h1>
+                        <p>Cras pretium lectus eu tempor<br>pretium. Quisque rutrum<br>magna nec euismod
+                            posuere.<br>Nunc laoreet rutrum varius.</p>
+                        <a href="#">╾╾╾ SIGN UP</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <h5>Creative makeup</h5>
+                        <h1>90$</h1>
+                        <p>Nullam tristique volutpat mi<br>sed commodo. Aliquam<br>accumsan tincidunt sapien,
+                            non<br>lobortis in.</p>
+                        <a href="#">╾╾╾ SIGN UP</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="test">
+        <div class="text">
+            <p>Testimonials</p>
+            <h1>What our clients say</h1>
+        </div>
+        <div style="padding: 50px 0px;" class="container">
+            <div class="row">
+                <div class="col-lg-1 col-md-1">
+                    <div class="iconbox">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-md-10">
+                    <div class="box">
+                        <img class="img-fluid" src="images/Screenshot 2023-02-05 190407.png" alt="">
+                        <p>Morbi viverra volutpat ex, id pellentesque felis volutpat eu. Duis et tellus
+                            imperdiet,<br>lacinia risus id, tincidunt ipsum. Integer euismod elit vel nibh commodo,
+                            at<br>consequat nisl rhoncus. Etiam mattis laoreet leo sed accumsan. Aliquam tempor<br>lorem
+                            odio, non aliquam nunc egestas in.</p>
+                        <span>BY STEFANIE RASHFORD</span>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-1">
+                    <div class="iconbox">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="brands">
+        <img class="img-fluid" src="images/Screenshot 2023-01-30 151150.png" alt="">
+    </section>
+    <section id="gallery">
+        <div class="text">
+            <p>Gallery</p>
+            <h1>Our portfolio</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/01-755x755.jpg" alt="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div class="boxw"></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/08-755x755.jpg" alt="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div class="boxw"></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/07-755x755.jpg" alt="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div class="boxw"></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/06-755x755.jpg" alt="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div class="boxw"></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/05-755x755.jpg" alt="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div class="boxw"></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/04-755x755.jpg" alt="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div class="boxw"></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/03-755x755.jpg" alt="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div class="boxw"></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/02-755x755.jpg" alt="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div class="boxw"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view">
+            <a href="#">╾╾╾ VIEW MORE</a>
+        </div>
+    </section>
+    <footer id="footer-start">
+        <div class="container">
+            <div class="form-input d-flex container">
+                <h4>Newsletter</h4>
+                <form class="forms">
+                    <input type="text" class="email-input" name="" placeholder="     Your email..." />
+                    <button class="subscribe-button">
+                        <span> SUBSCRIBE </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <hr / class="first-line">
+        <section id="footer-section">
+            <div class="sana-project">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="sana1">
+                            <a href="#"><img src="images/logo-white.png" alt="" /></a>
+                            <div class="txt1">
+                                <p>
+                                    Etiam consequat sem ullamcorper, euismod metus sit amet,
+                                    tristique justo. Vestibulum mattis, nisi ut faucibus
+                                    commodo,
+                                    risus ex commodo.
+                                </p>
+                            </div>
+                            <div class="icons-div">
+                                <ul>
+                                    <li>
+                                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="sana2">
+                            <h3>Explore</h3>
+                            <div class="footer-nav-ul d-flex">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <i class="fa-solid fa-angle-right"></i><a href="">HOME</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-right"></i><a href="">ABOUT US</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-right"></i><a href="">PRODUCTS</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-right"></i><a href="">BLOG</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <i class="fa-solid fa-angle-right"></i><a href="">GALLERY</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-right"></i><a href="">CONTACTS</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-right"></i><a href="">PAGES</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="sana3">
+                            <h3>Contact us</h3>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href=""><i class="fa-solid fa-location-dot"></i></a><a href="">20918, 117 Fashion
+                                        Street, NewYork, USA</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-brands fa-whatsapp"></i></a><a href="">0-500-255-321</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-envelope-open-text"></i></a><a
+                                        href="">info@sana-fashion.us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="second" />
+            <p class="secondP">
+                <a href="">Like-themes</a> © All Rights Reserved - 2019 -
+                <a href="">Purchase</a>
+            </p>
+        </section>
+    </footer>
+    <!-- footer end  -->
+</body>
+
+</html>  
