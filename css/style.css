@@ -3874,4 +3874,134 @@
   #organiccosmetics1 a {
     margin: 20px 750px;
   }
+}
+@media (min-width: 1920px) and (max-width: 2160px) {
+  #header .navmenu {
+    padding-right: 8rem;
+  }
+  #fashion .box3 p {
+    color: white;
+    padding: 10px 80px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s ease-in-out;
+  }
+  #fashion .box3 p:hover {
+    color: #c9a890;
+  }
+  #fashion .box3 p:hover::before {
+    width: 12%;
+  }
+  #fashion .box3 p::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    width: 0%;
+    height: 1px;
+    background-color: #c9a890;
+    transition: 0.3s ease-in-out;
+  }
+  #fashion .box3 .p2 {
+    color: #c9a890;
+  }
+  #fashion .box3 .p2::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    width: 12%;
+    height: 1px;
+    background-color: #c9a890;
+  }
+  #winter .boxw {
+    padding: 165px 0px;
+  }
+  #slider {
+    overflow: hidden;
+  }
+  #slider figure {
+    width: 500%;
+    margin: 0;
+    left: 0;
+    position: relative;
+    animation: 10s slider infinite 3s;
+  }
+  @keyframes slider {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: -90%;
+    }
+    75% {
+      left: -150%;
+    }
+    100% {
+      left: 0%;
+    }
+  }
+  #video .box .boxw {
+    padding: 440px 0px;
+  }
+  #services .imgbox .firstimg {
+    position: relative;
+  }
+  #services .imgbox .firstimg img {
+    height: 65vh;
+  }
+  #services .imgbox .secondimg {
+    position: absolute;
+    left: 66%;
+    top: 320rem;
+  }
+  #brands img {
+    width: 100%;
+  }
+  #events .text {
+    padding: 200px 0px;
+  }
+  #events .text h1 {
+    font-size: 60px;
+  }
+  #events .text p {
+    font-size: 15px;
+  }
+  #events .boximg .boxw {
+    padding: 460px 0px;
+  }
+  #wide .box {
+    position: relative;
+  }
+  #wide .box .blackbox {
+    position: absolute;
+    top: 71%;
+  }
+  #onepage .box {
+    position: relative;
+  }
+  #onepage .box img {
+    height: 80vh;
+  }
+  #onepage .box .boxw {
+    padding: 415px 0px;
+  }
+  #onepage .box .text {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+  }
+  #casual .text {
+    margin: 200px 30px;
+  }
+  #casual .boxicon i {
+    margin: 30px;
+  }
+  #casual #slider {
+    margin-top: -993px;
+  }
+  #organiccosmetics1 a {
+    margin: 20px 750px;
+  }
 }/*# sourceMappingURL=style.css.map */
